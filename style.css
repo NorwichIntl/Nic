@@ -2,16 +2,16 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.png'); /* Add background image */
-    background-size: cover; /* Cover the entire background */
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    background-attachment: fixed; /* Optional: Fix background while scrolling */
 }
 
 header {
-    background-color: rgba(240, 240, 240, 0.8); /* Semi-transparent background */
+    background-image: url('background.png'); /* Background image for header */
+    background-size: cover; /* Cover the header area */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
     padding: 20px;
     text-align: center;
+    color: white; /* Set text color to white for visibility */
 }
 
 .logo img {
@@ -21,7 +21,6 @@ header {
 
 main {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
 }
 
 #about {
@@ -29,7 +28,7 @@ main {
 }
 
 footer {
-    background-color: rgba(240, 240, 240, 0.8); /* Semi-transparent background */
+    background-color: #f0f0f0;
     padding: 10px;
     text-align: center;
 }
