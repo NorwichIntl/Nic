@@ -15,12 +15,13 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     position: relative;
     width: 100%;
+    height: 300px; /* Increase the height of the header */
 }
 
 header {
     display: flex;
     align-items: center;
-    width: 100%; /* Crucial change: header takes full width */
+    width: 100%;
 }
 
 .logo {
@@ -28,12 +29,13 @@ header {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 150px; /* Make the logo bigger */
     height: auto;
 }
 
 .school-name {
     margin: 0;
+    font-size: 2em; /* Make the school name bigger */
 }
 
 main {
