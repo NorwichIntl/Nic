@@ -5,13 +5,15 @@ body {
 }
 
 header {
-    background-image: url('background.png'); /* Background image for header */
-    background-size: cover; /* Cover the header area */
+    background-image: url('background.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; /* Center the image */
+    background-position: center;
     padding: 20px;
     text-align: center;
-    color: white; /* Set text color to white for visibility */
+    color: white;
+    display: inline-block; /* Crucial change */
+    width: 100%; /* Important: set the width */
 }
 
 .logo img {
