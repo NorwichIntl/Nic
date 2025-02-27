@@ -4,16 +4,18 @@ body {
     padding: 0;
 }
 
-header {
+.header-bg { /* Apply background image to the wrapper */
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
-    text-align: center;
     color: white;
-    display: inline-block; /* Crucial change */
-    width: 100%; /* Important: set the width */
+    text-align: center;
+    padding: 20px 0; /* Add padding to the top and bottom */
+}
+
+header {
+    display: inline-block; /* Keep header inline-block */
 }
 
 .logo img {
