@@ -8,14 +8,14 @@ body {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center; /* Adjust background position */
     color: #ddd;
     text-align: left;
     padding: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
     position: relative;
     width: 100%;
-    height: 300px; /* Increase the height of the header */
+    height: 300px;
 }
 
 header {
@@ -25,17 +25,21 @@ header {
 }
 
 .logo {
-    margin-right: 20px;
+    position: absolute;
+    top: 20px; /* Add some space from the top */
+    left: 20px; /* Add some space from the left */
+    z-index: 1; /* Ensure logo is on top */
 }
 
 .logo img {
-    max-width: 150px; /* Make the logo bigger */
+    max-width: 150px;
     height: auto;
 }
 
 .school-name {
     margin: 0;
-    font-size: 2em; /* Make the school name bigger */
+    font-size: 2em;
+    margin-left: 170px; /* Adjust margin to accommodate logo */
 }
 
 main {
