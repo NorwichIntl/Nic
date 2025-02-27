@@ -48,7 +48,6 @@ main {
 
 footer {
     background-color: #f0f0f0;
-    padding: 20px; /* Add padding to the footer */
+    padding: 20px; /* Keep the original padding */
     text-align: center;
-    min-height: 50px; /* Add a minimum height */
 }
