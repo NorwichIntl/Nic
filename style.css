@@ -4,23 +4,11 @@ body {
     padding: 0;
 }
 
-.logo-container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 2; /* Ensure logo is on top of everything */
-}
-
-.logo-container img {
-    max-width: 150px;
-    height: auto;
-}
-
 .header-bg {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top center; /* Adjust background position */
     color: #ddd;
     text-align: left;
     padding: 20px;
@@ -28,7 +16,6 @@ body {
     position: relative;
     width: 100%;
     height: 300px;
-    margin-top: 20px; /* Add margin to push header down */
 }
 
 header {
@@ -37,10 +24,22 @@ header {
     width: 100%;
 }
 
+.logo {
+    position: absolute;
+    top: 20px; /* Add some space from the top */
+    left: 20px; /* Add some space from the left */
+    z-index: 1; /* Ensure logo is on top */
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
 .school-name {
     margin: 0;
     font-size: 2em;
-    margin-left: 0; /* Remove margin */
+    margin-left: 170px; /* Adjust margin to accommodate logo */
 }
 
 main {
