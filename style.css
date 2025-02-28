@@ -48,6 +48,7 @@ main {
 
 #about {
     margin-bottom: 20px;
+    text-align: center; /* Center the text and buttons */
 }
 
 footer {
@@ -56,21 +57,25 @@ footer {
     text-align: center;
 }
 
-.contact-button {
-    background-color: #3b5998; /* Facebook blue */
-    color: white;
-    padding: 12px 25px; /* Adjust padding for size */
-    text-decoration: none;
-    border-radius: 30px; /* Rounded corners */
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 16px; /* Adjust font size */
-    border: none; /* Remove default border */
-    cursor: pointer; /* Change cursor on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+.button-container {
+    margin-top: 20px; /* Add space above the buttons */
 }
 
-.contact-button:hover {
-    background-color: #2d4373; /* Darker blue on hover */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+.contact-button, .about-button {
+    background-color: #3b5998;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 0 10px; /* Add margin between buttons */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-button:hover, .about-button:hover {
+    background-color: #2d4373;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
