@@ -8,7 +8,7 @@ body {
     background-image: url('background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center; /* Adjust background position */
+    background-position: top center;
     color: #ddd;
     text-align: left;
     padding: 20px;
@@ -26,9 +26,9 @@ header {
 
 .logo {
     position: absolute;
-    top: 20px; /* Add some space from the top */
-    left: 20px; /* Add some space from the left */
-    z-index: 1; /* Ensure logo is on top */
+    top: 20px;
+    left: 20px;
+    z-index: 1;
 }
 
 .logo img {
@@ -39,7 +39,7 @@ header {
 .school-name {
     margin: 0;
     font-size: 2em;
-    margin-left: 170px; /* Adjust margin to accommodate logo */
+    margin-left: 170px;
 }
 
 main {
@@ -54,4 +54,18 @@ footer {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center;
+}
+
+.contact-button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px; /* Add space above the button */
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
